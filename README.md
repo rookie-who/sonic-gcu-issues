@@ -1,6 +1,7 @@
-# GCU Performance Repro
+# sonic-gcu-issues
 
-Local reproduction of the GCU apply-patch sort step performance issue
-on high-radix systems.
+Reproducers and analysis for SONiC Generic Config Updater (GCU) issues.
 
-See `repro.py` for the standalone reproducer.
+## Contents
+
+- [`gcu-perf-repro/`](gcu-perf-repro/) — Performance reproducer for `apply-patch` sort step with real libyang v1.0-r4
