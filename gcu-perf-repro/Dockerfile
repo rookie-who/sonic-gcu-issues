@@ -48,6 +48,7 @@ RUN git clone --depth=1 --branch 202412 https://github.com/Azure/sonic-utilities
 
 # Copy repro script
 COPY repro_real.py /sonic/repro_real.py
+COPY fix_b_benchmark.py /sonic/fix_b_benchmark.py
 
 WORKDIR /sonic
 CMD ["python3", "repro_real.py"]
